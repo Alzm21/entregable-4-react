@@ -1,0 +1,61 @@
+.user {
+    padding: 20px;
+    border: 2px solid grey;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    color: black;
+    width: 23rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.user__name {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.user__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 5px;
+}
+
+.user__item {
+    display: flex;
+    flex-direction: column;
+    
+}
+.user__item span:first-child{
+    color: rgba(41, 41, 41, 0.322);
+    font-weight: 600;
+}
+
+.user__buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.user__btn {
+    padding: 10px;
+    width: 50px;
+    margin: 0;
+    background-color: rgb(221, 221, 221);
+}
+.user__btn:first-child {
+    background-color: rgb(212, 40, 40);
+}
+
+.icon_del{
+    fill: white;
+    font-size: 28px;
+}
+.icon_edi {
+    font-size: 28px;
+    fill: grey;
+}
